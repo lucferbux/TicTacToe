@@ -51,7 +51,6 @@ class ViewController: UIViewController {
         for i in 0 ..< 9 {
         
         button = view.viewWithTag(i) as! UIButton //al principio daba error porque al tener tag 0 podía confundirse con los demás botones, así que hay que asignar tags a los demás elementos
-            
         
         button.setImage(nil, forState: .Normal) //convierte el boton a nada
         
